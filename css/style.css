@@ -1,0 +1,59 @@
+#head-img img{
+    display: block;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vw;
+    padding-bottom: 3vw;
+}
+
+body{
+    background-color: black;
+    font-family: "Oswald";
+}
+
+#head-text{
+    border-style: groove;
+    border-width: 1px;
+    border-color: #57DB36;
+    font-size: 3vw;
+    width: 95vw;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5vw;
+}
+
+.grid{
+    border: 1px groove #57DB36;
+    text-align: left;
+    color: #57DB36;
+    width: 45vw;
+    font-size: 2vw;
+    gap: 2.5vw;
+    padding: 2.5vw;
+}
+
+#grid-image{
+    display: block;
+    width:40vw;
+    margin: auto;
+}
+
+.footer{
+    width: 95vw;
+    border: 1px groove #57DB36;
+    margin-left: auto;
+    margin-right: auto;
+    color: #57DB36;
+    padding: 1vw;
+    font-size: 1.5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 1vw;
+}
